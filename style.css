@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+*{   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+
+}
+header{
+    width: 375px;
+    height: 48px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+   margin-top: 18px;
+    position: relative;
+}
+.head-left{
+    width: 24px;
+    height: 24px;
+  
+}
+.head-left i{
+
+    display: flex;
+   margin: 0 auto;
+    align-items: center;
+    width: 10px;
+    height: 20px;
+    color: #272459;
+    
+}
+.head-center{
+    width: 59px;
+    height: 24px;
+    font-size: 20px;
+    text-align: justify;
+ 
+}
+.head-center p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+.head-right{
+width: 24px;
+height: 24px;
+
+}
+.head-right i{
+    display: flex;
+justify-content: center;
+align-items: center;
+text-shadow: 0px 4px 4px 0  #000000;
+    width: 19.63px;
+    height: 19.61px;
+  
+    color: #272459;
+   
+
+}
+.card{
+
+overflow:hidden;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+        
+    }
+.card-box{
+    width: 368px;
+margin-top: 25px;
+    display: flex;
+    gap:10px;
+
+}
+.choose-action{
+    box-shadow: 0 4px 4px #0000007a;
+    width: 60px;
+    border-radius: 16px 0 16px 16px;
+    height: 60px;   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3505A;
+}
+.choose-action svg{
+
+    width: 24px;
+    height: 24px;
+}
+
+.no-action{
+    width: 60px;
+    border-radius: 16px 0 16px 16px;
+    height: 60px;   display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C8C8D3; 
+}
+.no-action svg{
+
+    width: 24px;
+    height: 24px;
+}
+.meat-action{
+    
+  
+    
+    width: 73px;
+    height: 20px;
+   font-size: 14px;font-family: 'Montserrat';  font-weight: 500;
+    font-style: normal; color:rgba(0, 0, 0, 1);
+    
+
+    text-align: center;
+
+}
+.meat-action p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    text-shadow: 0px 4px 4px  #000000;
+}
+.no-choose .meat p{
+    width: 73px;
+    height: 20px;
+    text-align: center;
+   font-size: 14px;font-family: 'Montserrat';  font-weight: 500;
+    font-style: normal;
+    color:#C8C8D3;
+   
+}
+
+
+
+.div1{
+    width: 154px;
+    background-color: #fff;
+    height: 200px; box-shadow: 5px 6px 22px rgba(0, 0, 0, 0.08);
+    border-radius: 16px 0px 16px 15px;
+}
+.meat-fish{
+    
+    
+    width: 154px;
+    height: 200px;    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+   
+}
+
+.card-top{
+   
+    width: 154px;
+
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+}
+.adress{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-around;
+    width: 70px;
+    height: 18px;
+ 
+}
+.adress p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #F35C56;
+}
+.icons{
+   font-size: 12px;
+    height: 12px;
+   
+}
+.icons i{
+font-size: 9px;
+    height: 12px;
+    margin-left: 5px;
+    color:#F35C56;
+}
+.icon{
+    width: 36px;
+    height: 36px;
+    background-color: #FAE1DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 0px 8px 8px;
+}
+.icon i{
+    width: 16px;
+    height: 16px;
+    color: #F35C56;
+}
+.card-bottom{
+   margin-top: 12px;
+    width: 154px;
+bottom: 10px;
+    justify-content: space-around;
+    display: flex;
+    position: absolute;
+
+}
+.card-bottom .meat-name p{
+    width: 66px;
+    height: 22px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+   font-weight: 600;  
+   color: #272459;
+  
+
+}
+.card-bottom .meat-name span{
+    display: block;
+    width: 32px;
+    height: 18px;
+    font-size: 12px;
+    text-align:justify;
+    color: #75759E;
+
+}
+.price{
+    font-family: 'Montserrat';
+    font-weight: 600;  
+    font-size: 16px;
+    color:#F35C56;
+}
+
+
+
+
+
+
+
+
+
